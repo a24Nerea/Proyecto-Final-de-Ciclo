@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="3"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="tituloJLabel" min="-2" max="-2" attributes="0"/>
+                  <Component id="isbnJLabel" min="-2" max="-2" attributes="0"/>
+                  <Component id="autorJLabel" min="-2" max="-2" attributes="0"/>
+                  <Component id="generoJLabel" min="-2" max="-2" attributes="0"/>
+                  <Component id="tematicaJLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="edadRecomenadadaJLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="ejemplaresJLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="editorialJLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="isbnJTextField" max="32767" attributes="0"/>
+                  <Component id="tituloJTextField" max="32767" attributes="0"/>
+                  <Component id="autorJTextField" alignment="0" max="32767" attributes="0"/>
+                  <Component id="generoJTextField" alignment="0" max="32767" attributes="0"/>
+                  <Component id="tematicaJTextField" alignment="0" max="32767" attributes="0"/>
+                  <Component id="editorialJTextField" min="-2" pref="225" max="-2" attributes="0"/>
+                  <Component id="ejemplaresJTextField" alignment="0" max="32767" attributes="0"/>
+                  <Component id="edadRecomendadaJTextField" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Component id="dataBookTitleJLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <Component id="saveJButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="cancelJButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+              <Component id="dataBookTitleJLabel" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="isbnJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="isbnJTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="tituloJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tituloJTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="autorJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="autorJTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="generoJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="generoJTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="tematicaJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tematicaJTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="edadRecomenadadaJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="edadRecomendadaJTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ejemplaresJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ejemplaresJTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="editorialJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="editorialJTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="160" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cancelJButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="saveJButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="dataBookTitleJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Datos libro"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="isbnJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ISBN:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="isbnJTextField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="tituloJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="T&#xed;tulo:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tituloJTextField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="autorJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Autor:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="autorJTextField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="generoJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="G&#xe9;nero:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="generoJTextField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="tematicaJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tem&#xe1;tica:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tematicaJTextField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="edadRecomenadadaJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Edad recomendada:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="edadRecomendadaJTextField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="ejemplaresJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ejemplares:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ejemplaresJTextField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="editorialJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Editorial:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="editorialJTextField">
+    </Component>
+    <Component class="javax.swing.JButton" name="saveJButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Guardar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="cancelJButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cancelar"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
